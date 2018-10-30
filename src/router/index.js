@@ -10,6 +10,10 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      path: '/',
+      redirect: '/msite'
+    },
+    {
       path: '/msite',
       name: 'Msite',
       component: Msite,

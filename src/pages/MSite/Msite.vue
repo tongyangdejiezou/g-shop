@@ -143,6 +143,7 @@ export default {
     ShopList
   },
   mounted () {
+    /* eslint-disable no-new */
     new Swiper('.swiper-container', {
       loop: true,
       autoplay: {
@@ -248,5 +249,4 @@ export default {
             color #999
             font-size 14px
             line-height 20px
-        
 </style>
